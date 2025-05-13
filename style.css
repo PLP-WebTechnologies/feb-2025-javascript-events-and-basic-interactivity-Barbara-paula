@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.accordion {
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+.panel {
+    display: none;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+}
